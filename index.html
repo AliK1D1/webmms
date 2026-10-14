@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+
+<head>
+  <meta charset="utf-8">
+  <title>webMMS — Sites web et solutions pour les entreprises</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="webMMS conçoit des sites web clairs, rapides et mémorables pour les commerces et les entreprises de la Rive-Sud, ainsi que les petits outils qui leur font gagner du temps.">
+  <meta name="theme-color" content="#0e0f12">
+  <meta property="og:title" content="webMMS — Des sites web qu'on n'oublie pas">
+  <meta property="og:description" content="Sites vitrines, réservation en ligne, automatisations et visibilité locale pour les entreprises.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_CA">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="font" type="font/woff2" href="font/montserrat-latin.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="font/open-sans-latin.woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <!-- ==========================
+       Entête
+       ========================== -->
+  <header class="entete" data-entete>
+    <div class="container entete-inner">
+      <a class="logo" href="#haut" aria-label="webMMS, retour en haut">
+        <span class="logo-web">web</span><span class="logo-mms">MMS</span><span class="logo-curseur" aria-hidden="true"></span>
+      </a>
+
+      <button class="menu-bouton" type="button" aria-expanded="false" aria-controls="menu" data-menu-bouton>
+        <span class="sr-only">Ouvrir le menu</span>
+        <span class="menu-barres" aria-hidden="true"></span>
+      </button>
+
+      <nav class="menu" id="menu" aria-label="Navigation principale" data-menu>
+        <a href="#services">Services</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#demarche">Démarche</a>
+        <a class="bouton bouton-petit" href="#contact">Nous joindre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ==========================
+         Accueil
+         ========================== -->
+    <section class="hero" id="haut">
+      <div class="container hero-inner">
+        <div class="hero-texte">
+          <p class="surtitre">Sites web et solutions numériques · Rive-Sud</p>
+          <h1>Des sites web qu'on <mark class="surligne">n'oublie pas.</mark></h1>
+          <p class="hero-lead">
+            webMMS conçoit des sites clairs, rapides et beaux pour les commerces et les entreprises,
+            et les petits outils qui leur font gagner du temps.
+          </p>
+          <p class="hero-pour">
+            <span class="sr-only">Pour les garages, salons, restaurants, entrepreneurs et commerces d'ici.</span>
+            <span aria-hidden="true">Pour les </span><span class="rotateur" aria-hidden="true" data-rotateur
+              data-mots="garages|salons de coiffure|restaurants|entrepreneurs|paysagistes|traiteurs|commerces d'ici">commerces d'ici</span><span class="rotateur-curseur" aria-hidden="true"></span>
+          </p>
+          <div class="hero-actions">
+            <a class="bouton" href="#contact">Parlons de votre projet</a>
+            <a class="bouton bouton-contour" href="#realisations">Voir nos réalisations</a>
+          </div>
+        </div>
+
+        <!-- Navigateur qui « construit » un site -->
+        <div class="hero-visuel" aria-hidden="true">
+          <div class="navigateur navigateur-construit">
+            <div class="navigateur-barre">
+              <span class="pastille"></span><span class="pastille"></span><span class="pastille"></span>
+              <span class="navigateur-url"><span class="url-texte">votrecommerce.ca</span></span>
+            </div>
+            <div class="navigateur-page">
+              <div class="bloc bloc-nav"><i></i><i></i><i></i><i></i></div>
+              <div class="bloc bloc-hero">
+                <span class="bloc-titre"></span>
+                <span class="bloc-ligne"></span>
+                <span class="bloc-ligne courte"></span>
+                <span class="bloc-bouton"></span>
+              </div>
+              <div class="bloc-cartes">
+                <span class="bloc carte"></span>
+                <span class="bloc carte"></span>
+                <span class="bloc carte"></span>
+              </div>
+            </div>
+          </div>
+          <p class="etiquette-note">Votre site ici.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================
+         Bandeau défilant
+         ========================== -->
+    <div class="bandeau-cadre" aria-hidden="true">
+    <div class="bandeau">
+      <div class="bandeau-piste">
+        <span>Sites vitrines</span><span>Réservation en ligne</span><span>Automatisations</span><span>Visibilité locale</span><span>Refonte</span><span>Hébergement</span>
+        <span>Sites vitrines</span><span>Réservation en ligne</span><span>Automatisations</span><span>Visibilité locale</span><span>Refonte</span><span>Hébergement</span>
+      </div>
+    </div>
+    </div>
+
+    <!-- ==========================
+         Services
+         ========================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-tete apparait">
+          <p class="surtitre">Ce qu'on fait</p>
+          <h2>Un site, et tout ce qui va autour.</h2>
+          <p class="section-lead">Vous vous occupez de votre métier. On s'occupe de ce que vos clients voient en ligne, et de ce qui se passe une fois qu'ils vous ont trouvé.</p>
+        </header>
+
+        <ul class="services">
+          <li class="service apparait">
+            <span class="service-num">01</span>
+            <svg class="service-icone" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg>
+            <h3>Site vitrine</h3>
+            <p>Une page claire qui dit qui vous êtes, ce que vous faites et comment vous joindre. Pensée d'abord pour le cellulaire.</p>
+          </li>
+          <li class="service apparait">
+            <span class="service-num">02</span>
+            <svg class="service-icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 13.7-5.6L20 8.7M20 4v4.7h-4.7M20 12a8 8 0 0 1-13.7 5.6L4 15.3M4 20v-4.7h4.7"/></svg>
+            <h3>Refonte</h3>
+            <p>Votre site a vieilli? On le remet au goût du jour sans perdre ce qui fonctionne déjà.</p>
+          </li>
+          <li class="service apparait">
+            <span class="service-num">03</span>
+            <svg class="service-icone" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 14h3"/></svg>
+            <h3>Réservation et formulaires</h3>
+            <p>Prise de rendez-vous, demandes de soumission, formulaires de contact : vos clients écrivent, vous recevez.</p>
+          </li>
+          <li class="service apparait">
+            <span class="service-num">04</span>
+            <svg class="service-icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3 5 13h6l-1 8 8-10h-6l1-8Z"/></svg>
+            <h3>Automatisations</h3>
+            <p>Courriels de confirmation, rappels, tableaux qui se remplissent seuls : on enlève les tâches répétitives de votre journée.</p>
+          </li>
+          <li class="service apparait">
+            <span class="service-num">05</span>
+            <svg class="service-icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            <h3>Visibilité locale</h3>
+            <p>Fiche Google, bonnes informations aux bons endroits : qu'on vous trouve quand on cherche ce que vous faites, près de chez soi.</p>
+          </li>
+          <li class="service apparait">
+            <span class="service-num">06</span>
+            <svg class="service-icone" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.4 3.4 8.2 8 9 4.6-.8 8-4.6 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3>Hébergement et suivi</h3>
+            <p>Mise en ligne, nom de domaine, petites modifications : on reste là après le lancement.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==========================
+         Phrase forte
+         ========================== -->
+    <section class="declaration">
+      <div class="container">
+        <p class="apparait">Votre site travaille <span class="accent">24 heures sur 24.</span><br>Autant qu'il travaille bien.</p>
+      </div>
+    </section>
+
+    <!-- ==========================
+         Réalisations
+         ========================== -->
+    <section class="section" id="realisations">
+      <div class="container">
+        <header class="section-tete apparait">
+          <p class="surtitre">Réalisations</p>
+          <h2>Allez voir par vous-même.</h2>
+          <p class="section-lead">Le meilleur argument d'un site, c'est le site. En voici deux, en ligne.</p>
+        </header>
+
+        <div class="projets">
+          <a class="projet apparait" href="https://adept-lan.onrender.com" target="_blank" rel="noopener">
+            <div class="projet-apercu apercu-lan" aria-hidden="true">
+              <div class="navigateur">
+                <div class="navigateur-barre">
+                  <span class="pastille"></span><span class="pastille"></span><span class="pastille"></span>
+                  <span class="navigateur-url">adept-lan.onrender.com</span>
+                </div>
+                <img class="apercu-capture" src="img/realisation-lan.jpg" width="1200" height="667" loading="lazy" alt="">
+
+              </div>
+            </div>
+            <div class="projet-texte">
+              <p class="projet-type">Site d'événement</p>
+              <h3>LAN de l'ADEPT</h3>
+              <p>Le site du LAN de 24 heures de l'ADEPT Informatique au cégep Édouard-Montpetit : infos pratiques, tournois, horaire, liste « quoi apporter » et compte à rebours.</p>
+              <span class="projet-lien">Visiter le site <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+
+          <a class="projet apparait" href="https://maquette-xipd.onrender.com/" target="_blank" rel="noopener">
+            <div class="projet-apercu apercu-garage" aria-hidden="true">
+              <div class="navigateur">
+                <div class="navigateur-barre">
+                  <span class="pastille"></span><span class="pastille"></span><span class="pastille"></span>
+                  <span class="navigateur-url">maquette-xipd.onrender.com</span>
+                </div>
+                <img class="apercu-capture" src="img/realisation-garage.jpg" width="1200" height="667" loading="lazy" alt="">
+
+              </div>
+            </div>
+            <div class="projet-texte">
+              <p class="projet-type">Maquette · garage</p>
+              <h3>Garage Dufresne &amp; Fils</h3>
+              <p>Un exemple de ce qu'on peut faire pour un garage : services, prix, prise de rendez-vous en ligne, heures d'ouverture. L'entreprise est fictive; le site, lui, fonctionne.</p>
+              <span class="projet-lien">Voir la maquette <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================
+         Démarche
+         ========================== -->
+    <section class="section section-teinte" id="demarche">
+      <div class="container">
+        <header class="section-tete apparait">
+          <p class="surtitre">Démarche</p>
+          <h2>Simple, du premier appel à la mise en ligne.</h2>
+        </header>
+
+        <ol class="etapes">
+          <li class="etape apparait">
+            <span class="etape-num">1</span>
+            <h3>On se parle</h3>
+            <p>Vous nous expliquez votre commerce, vos clients et ce qui vous manque aujourd'hui.</p>
+          </li>
+          <li class="etape apparait">
+            <span class="etape-num">2</span>
+            <h3>On vous montre</h3>
+            <p>Une maquette concrète, pour voir le résultat avant de décider quoi que ce soit.</p>
+          </li>
+          <li class="etape apparait">
+            <span class="etape-num">3</span>
+            <h3>On construit</h3>
+            <p>Le site complet, testé sur cellulaire, tablette et ordinateur.</p>
+          </li>
+          <li class="etape apparait">
+            <span class="etape-num">4</span>
+            <h3>On reste là</h3>
+            <p>Mise en ligne, puis les petites modifications quand votre commerce change.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ==========================
+         Contact
+         ========================== -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner apparait">
+        <p class="surtitre">Nous joindre</p>
+        <h2>Votre commerce mérite <mark class="surligne">qu'on le trouve.</mark></h2>
+        <p class="contact-lead">Parlez-nous de votre projet. On vous répond, en français, sans jargon.</p>
+        <div class="contact-actions">
+          <a class="bouton bouton-grand" href="mailto:ali.khaldi2005@gmail.com?subject=Projet%20de%20site%20web">Nous écrire</a>
+          <a class="bouton bouton-contour bouton-grand" href="tel:+14384076804">438 407-6804</a>
+        </div>
+        <p class="contact-coord">
+          <a href="mailto:ali.khaldi2005@gmail.com?subject=Projet%20de%20site%20web">ali.khaldi2005@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================
+       Pied de page
+       ========================== -->
+  <footer class="pied">
+    <div class="container pied-inner">
+      <a class="logo logo-pied" href="#haut" aria-label="webMMS, retour en haut">
+        <span class="logo-web">web</span><span class="logo-mms">MMS</span><span class="logo-curseur" aria-hidden="true"></span>
+      </a>
+      <p>Sites web et solutions pour les entreprises · Rive-Sud de Montréal</p>
+      <p class="pied-coord"><a href="tel:+14384076804">438 407-6804</a> · <a href="mailto:ali.khaldi2005@gmail.com">ali.khaldi2005@gmail.com</a></p>
+      <p class="pied-petit">© <span data-annee>2026</span> webMMS · Polices Montserrat et Open Sans (licence OFL)</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>
